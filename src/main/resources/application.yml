@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: MerchantsWallet
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/wallet?autoReconnect=true
+    username: root
+    password:
+  kafka:
+    bootstrap-servers: 192.168.0.11:32786
+    consumer:
+      group-id: wallet
+    listener:
+      concurrency: 4
