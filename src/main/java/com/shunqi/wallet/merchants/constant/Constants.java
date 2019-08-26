@@ -6,7 +6,7 @@ package com.shunqi.wallet.merchants.constant;
 public class Constants {
 
     // kafka topic
-    public static final String COUPON_TOPIC = "merchants_coupon";
+    public static final String COUPON_TOPIC = "coupon";
 
     // token key
     public static final String TOKEN_STRING = "token";

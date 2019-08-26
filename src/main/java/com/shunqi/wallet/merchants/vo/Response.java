@@ -13,13 +13,13 @@ public class Response {
 
     private String errorMsg = "";
 
-    private Object data;
+    private Object responseData;
 
     /**
      *
-     * @param data return object
+     * @param responseData return object
      */
-    public Response(Object data) {
-        this.data = data;
+    public Response(Object responseData) {
+        this.responseData = responseData;
     }
 }
